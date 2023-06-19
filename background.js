@@ -1,0 +1,11 @@
+let professorName = "";
+let html = "";
+let professorRating = 0.0;
+let subject = "";
+let courseCode = "";
+let campus = 1;
+let professorID = 0;
+let numRatings = 0;
+let wouldTakeAgainPercent;
+let avgDifficulty;
+let url = "";
