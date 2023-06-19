@@ -28,4 +28,12 @@
       isTBA = true;
     }
   });
+  chrome.runtime.sendMessage({
+    type: "BACKGROUND",
+    professorName,
+    subject,
+    courseCode,
+    isTBA,
+    campus,
+  });
 })();
