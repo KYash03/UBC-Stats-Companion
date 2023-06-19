@@ -4,10 +4,7 @@
   "version": "1.0.0",
   "description": "Discover professor ratings and critical statistics for UBC courses.",
   "permissions": ["tabs", "storage"],
-  "host_permissions": [
-    "https://www.ratemyprofessors.com/*",
-    "https://courses.students.ubc.ca/*"
-  ],
+  "host_permissions": ["https://www.ratemyprofessors.com/*"],
   "background": {
     "service_worker": "background.js"
   },
