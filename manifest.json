@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "UBC Stats Companion",
+  "version": "1.0.0",
+  "description": "Discover professor ratings and critical statistics for UBC courses.",
+  "permissions": ["tabs", "storage"],
+  "host_permissions": [
+    "https://www.ratemyprofessors.com/*",
+    "https://courses.students.ubc.ca/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://courses.students.ubc.ca/cs/courseschedule?pname=subjarea&tname=subj-section&dept=*&course=*&section=*"
+      ],
+      "js": ["jquery-3.7.0.min.js", "contentScript.js"]
+    }
+  ],
+  "action": {
+    "default_title": "UBC Extension",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
