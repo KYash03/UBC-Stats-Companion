@@ -6,6 +6,6 @@ When the user clicks on the extension on a valid page, the extension fetches the
 
 ![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5jZmdvd2k1ZjNsZHA1djJuOXIxOGFhYjZqMTkxd3BoMm5ocnpnaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LoXUulLh7bta62BW5q/giphy.gif)
 
-To install the extension: [https://chrome.google.com/webstore/detail/ubc-stats-companion/hogjbhheidjgkabgjfhjdmaieppefagj](http://bit.ly/ubc-stats-companion)
+To install the extension: ![](https://bit.ly/ubc-stats-companion)
 
 Tech Used: HTML, CSS, JavaScript, JQuery, Bootstrap
