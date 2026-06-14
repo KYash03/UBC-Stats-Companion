@@ -4,7 +4,21 @@ UBC Stats Companion is a Chrome extension that lets UBC students access course s
 
 When the user clicks on the extension on a valid page, the extension fetches the course's data using UBC Grades' API. For professor statistics, web scraping is used to extract the professor's statistics from their page on RateMyProfessors.
 
-![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW5jZmdvd2k1ZjNsZHA1djJuOXIxOGFhYjZqMTkxd3BoMm5ocnpnaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LoXUulLh7bta62BW5q/giphy.gif)
+<p align="center">
+  <img src="assets/s1.png" alt="UBC Stats Companion screenshot 1" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/s2.png" alt="UBC Stats Companion screenshot 2" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/s3.png" alt="UBC Stats Companion screenshot 3" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/s4.png" alt="UBC Stats Companion screenshot 4" width="700">
+</p>
 
 To install the extension: [https://bit.ly/ubc-stats-companion](https://bit.ly/ubc-stats-companion)
 
